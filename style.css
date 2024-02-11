@@ -9,7 +9,7 @@ body {
   max-width: 80vw; /* Adjust the maximum width as needed */
   margin: 20px auto;
   background-color: #fff;
-  border-radius: 2.60417vw; /* 10px in vw */
+  border-radius: 1.60417vw; /* 10px in vw */
   box-shadow: 0 0 1.04167vw rgba(0, 0, 0, 0.1); /* 10px in vw */
 }
 
@@ -20,16 +20,16 @@ body {
 .banner-image {
   width: 100%;
   max-height: 35vh; /* Set the maximum height for the banner */
-  border-top-left-radius: 10px; /* 10px in vw */
-  border-top-right-radius: 10px; /* 10px in vw */
+  border-top-left-radius: 1.60417vw; /* 10px in vw */
+  border-top-right-radius: 1.60417vw; /* 10px in vw */
 }
 
 .profile-picture {
   position: absolute;
   top: 2.60417vw; /* 50px in vw */
   left: 2.60417vw; /* 50px in vw */
-  width: 13.0208vw; /* 250px in vw */
-  height: 13.0208vw; /* 250px in vw */
+  width: 15.0208vw; /* 250px in vw */
+  height: 15.0208vw; /* 250px in vw */
   border: 0.15625vw solid #fff; /* 3px in vw */
   border-radius: 50%;
   object-fit: cover;
@@ -46,7 +46,7 @@ body {
   color: #333;
   text-decoration: none;
   font-weight: bold;
-  font-size: 2vh;
+  font-size: 3vh;
 }
 
 .content-container {
@@ -60,6 +60,7 @@ body {
 .profile-section {
   flex: 1;
   padding: 1.04167vw; /* 20px in vw */
+  padding-top: 0;
 }
 
 .profile-name {
