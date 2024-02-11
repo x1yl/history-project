@@ -117,3 +117,12 @@ body {
   line-height: 1.5;
   font-size: calc(0.75vw + 0.75vh);
 }
+
+.footer {
+  text-align: center;
+  margin-top: 0px;
+  padding: .5vw; /* 20px in vw */
+  background-color: #eee;
+  margin-top: 1vw; /* 20px in vw */
+  font-size: 1vw; /* 15px in vw */
+}
