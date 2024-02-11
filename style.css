@@ -6,7 +6,7 @@ body {
 }
 
 .profile-container {
-    max-width: 90%; /* Adjust the maximum width as needed */
+    max-width: 80%; /* Adjust the maximum width as needed */
     margin: 20px auto;
     background-color: #fff;
     border-radius: 10px;
@@ -50,7 +50,7 @@ body {
 
 .content-container {
     display: flex;
-    max-width: calc(100% - 40px); /* Adjust the maximum width of the content container */
+    max-width: calc(100% - 100px); /* Adjust the maximum width of the content container */
     margin: 20px;
 }
 
@@ -102,4 +102,5 @@ body {
     margin-left: 120px; /* Add left margin for separation */
     overflow: hidden;
     line-height: 1.5;
+    font-size: 1.2em;
 }
